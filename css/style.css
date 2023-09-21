@@ -110,3 +110,54 @@ body{
     padding: 20px 0px;
     margin-bottom: 10px;
 }
+
+
+@media screen and (min-width:1440px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--Dark-Slate-Grey);
+    }
+
+    /* Component */
+    .component{
+        background-color: var(--White);
+        width: 95vh;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .component__image-mobile{
+        display: none;
+    }
+
+    .component__image-desktop{
+        display: block;
+        width: 45vh;
+    }
+
+    /* content */
+    .content{
+        margin-right: 60px;
+    }
+
+    .info__title{
+        font-size: 50px;
+    }
+
+    /* Formulary */
+    .formilary__camp{
+        padding: 15px;
+    }
+
+    .formulary__button{
+        padding: 15px;
+    }
+
+}
