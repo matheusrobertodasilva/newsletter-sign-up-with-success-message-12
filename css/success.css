@@ -72,6 +72,10 @@ body{
         margin-bottom: 30px;
     }
 
+    .thanks__button{
+        width: inherit;
+    }
+
     .thanks__button:hover{
         background-color: var(--Tomato);
         box-shadow: 0px 10px 10px 5px hsl(4, 100%, 67%, 0.2);
