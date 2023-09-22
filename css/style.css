@@ -70,6 +70,14 @@ body{
     justify-content: center;
 }
 
+.formilary__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: none;
+    font-size: 12px;
+}
+
 .formulary__descrition{
     color: var(--Dark-Slate-Grey);
     font-weight: 700;
@@ -96,10 +104,16 @@ body{
     margin-bottom: 10px;
 }
 
+    .message-erro{
+        color: var(--Tomato);
+        font-weight: 700;
+    }
+
 @media screen and (min-width:800px){
     .component__image-mobile{
         width: 100vw;
     }
+
     .content{
         height: 45vh;
     }

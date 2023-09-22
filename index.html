@@ -22,8 +22,11 @@
                 </ul>
             </div>
             <form class="formulary">
-                <label for="email" class="formulary__descrition">Email address</label>
-                <input id="email" type="email" placeholder="email@company.com" class="formilary__camp">
+                <fieldset class="formilary__block">
+                    <label for="email" class="formulary__descrition">Email address</label>
+                    <span class="message-erro"></span>
+                </fieldset>
+                <input name="email" id="email" type="email" placeholder="email@company.com" class="formilary__camp" minlength="5" required>
                 <input type="submit" class="formulary__button" value="Subscribe to monthly newsletter">
             </form>
         </div>
